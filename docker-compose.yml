@@ -3,6 +3,7 @@ version: '3.3'
 services:
   reverse-proxy:
     image: patklaey/nginx
+    container_name: nginx
     restart: always
     ports:
       - "80:80"
