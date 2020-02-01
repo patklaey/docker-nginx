@@ -5,5 +5,5 @@ RUN sed -i "17i\\    server_names_hash_bucket_size 64;" /etc/nginx/nginx.conf
 
 COPY certs /etc/ssl/certs
 
-COPY *.conf /etc/nginx/conf.d/
+COPY conf.d/. /etc/nginx/conf.d/
 
