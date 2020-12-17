@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   reverse-proxy:
-    image: patklaey/nginx:0.4
+    image: patklaey/nginx:0.5
     container_name: nginx
     restart: always
     network_mode: "host"
